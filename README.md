@@ -1,5 +1,7 @@
 # Bridge Disclosed Issues Lab
-![Uploading image.png…]()
+
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/034c21da-5993-4a45-809e-9c421aae582e" />
+
 
 Local PoC lab for already disclosed bridge and cross-chain findings.
 
