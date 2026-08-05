@@ -1,0 +1,5 @@
+[profile.default]
+src = "src"
+test = "poc"
+libs = ["../../LayerZero-v2-OFT-Bug-Lab/lib"]
+remappings = ["forge-std/=../../LayerZero-v2-OFT-Bug-Lab/lib/forge-std/src/"]
