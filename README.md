@@ -38,7 +38,6 @@ This repo is not a live bug bounty report set. It rebuilds public findings into 
 
 ```text
 case-name/
-|-- README.md
 |-- context.md
 |-- findings/
 |   |-- H-01.md
