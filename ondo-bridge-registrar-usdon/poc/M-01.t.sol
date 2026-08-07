@@ -1,4 +1,3 @@
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
@@ -17,11 +16,9 @@ contract OndoM01Test is Test {
 
         oft = registrar.register(token);
 
-        // Seed the user so the only failure reason is the missing burn role.
         vm.store(
             address(token),
-            keccak256(abi.encode(user, uint256(1))), // balanceOf mappi slot
-
+            keccak256(abi.encode(user, uint256(1))),
             bytes32(uint256(100 ether))
         );
     }

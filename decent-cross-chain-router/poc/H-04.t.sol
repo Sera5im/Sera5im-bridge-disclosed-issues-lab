@@ -1,4 +1,3 @@
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
@@ -27,7 +26,7 @@ contract DecentH04Test is Test {
             address(0xAAA1),
             address(adapter),
             20 ether,
-            1 // payload-bearing route, not plain ETH transfer
+            1
         );
 
         assertEq(dcntEth.balanceOf(address(adapter)), 20 ether);
