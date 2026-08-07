@@ -20,7 +20,8 @@ contract OndoM01Test is Test {
         // Seed the user so the only failure reason is the missing burn role.
         vm.store(
             address(token),
-            keccak256(abi.encode(user, uint256(1))), // balanceOf mapping slot
+            keccak256(abi.encode(user, uint256(1))), // balanceOf mappi slot
+
             bytes32(uint256(100 ether))
         );
     }
